@@ -1,0 +1,16 @@
+
+.card{
+    height: 60vh;
+   overflow-y: auto;
+}
+
+.card-header{
+    
+   
+    text-align: center;
+   
+    background-color: rgb(207, 207, 207);
+    color: darkorchid;
+}
+
+

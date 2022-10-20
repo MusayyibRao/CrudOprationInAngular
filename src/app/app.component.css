@@ -1,0 +1,18 @@
+
+
+.nav-item .nav-link 
+{
+
+
+    color: red;
+    background-color: darkgray;
+    font-size: 20px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 15px;
+    margin-left: 20px;
+  
+}
+
+.navbar-nav{
+margin-left:10%; 
+}

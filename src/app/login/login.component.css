@@ -1,0 +1,11 @@
+.container{
+
+    width: 50%;
+}
+
+.card-header{
+
+    text-align: center;
+    color: chocolate;
+    background-color:rgb(207, 207, 207);
+}

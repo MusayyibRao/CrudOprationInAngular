@@ -1,0 +1,47 @@
+
+<div class="container mt-5">
+<div class="card">
+
+<div class="card-header"><h1>Employee Details</h1></div>
+<div class="card-body">
+
+
+<table class="table table-bordered border-primary table-responsive">
+
+<thead  class="sticky-top table-dark"> 
+    <tr>
+<th>Name</th>
+<th>Address</th>
+<th>Mobile Number</th>
+<th>Email id</th>
+<th>Update</th>
+<th>Delete</th>
+</tr>
+</thead>
+
+<tbody >
+<tr *ngFor="let emp of employees">
+  <td>{{emp.employeename}}</td>  
+  <td>{{emp.employeeAddress}}</td>
+  <td>{{emp.employeeEmail}}</td>
+  <td>{{emp.employeePhone}}</td>
+  <td><button type="button" (click)="updatePage(emp.employeeId)" class="btn btn-primary">Update</button></td>
+  <td><button type="button" (click)="deleteData(emp.employeeId)" class="btn btn-danger">Delete </button></td>
+ 
+</tr>
+</tbody>
+    
+
+
+
+</table>
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
